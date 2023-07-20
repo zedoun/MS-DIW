@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    box-sizing: initial;
+    list-style: none;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+    font-style: italic;
+    font-size: 40px;
+
+    color: #1DA6F2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F97070;
+    border-radius: 25px;
+    border-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+li {
+    margin-left: 50px;
+}
+
+ul {
+    display: inline-flex;
+    padding-left: 460px;
+}
+
+#logo {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    left: 25px;
+    top: 0px;
+    background: url(logo.png);
+    border-radius: 10px;
+}
+
+#titre {
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: -7px;
+    top: 126px;
+    background: url(bg2.jpg);
+}
+
+#recherche {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    width: 600px;
+    height: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cat1 {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 24px;
+    top: 389px;
+    background: url(pizza_cat.jpg);
+    border-radius: 30px;
+}
+
+#cat2 {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 500px;
+    top: 389px;
+    background: url(asian_food_cat.jpg);
+    border-radius: 30px;
+}
+
+#cat3 {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 1000px;
+    top: 389px;
+    background: linear-gradient(0deg, rgba(152, 234, 150, 0.29), rgba(152, 234, 150, 0.29)), url(burger_cat.jpg);
+    border-radius: 30px;
+}
+
+#cat4 {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 24px;
+    top: 610px;
+    background: url(wrap_cat.jpg);
+    border-radius: 30px;
+}
+
+#cat5 {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 500px;
+    top: 610px;
+    background: url(sandwich_cat.jpg);
+    border-radius: 30px;
+}
+
+#cat6 {
+    position: absolute;
+    width: 420px;
+    height: 200px;
+    left: 1000px;
+    top: 610px;
+    background: url(pasta_cat.jpg);
+    border-radius: 30px;
+}
+
+#plat1 {
+    position: absolute;
+    width: 420px;
+    height: 115px;
+    left: 24px;
+    top: 830px;
+    background: url(hamburger.jpg);
+    border-radius: 25px;
+}
+
+#plat2 {
+    position: absolute;
+    width: 420px;
+    height: 115px;
+    left: 500px;
+    top: 830px;
+    background: url(salad1.png);
+    border-radius: 25px;
+}
+
+#plat3 {
+    position: absolute;
+    width: 420px;
+    height: 115px;
+    left: 1000px;
+    top: 830px;
+    background: url(cheesburger.jpg);
+    border-radius: 25px;
+}
+
+#logos {
+    position: absolute;
+    width: 500px;
+    height: 75px;
+    border: 10px 20px #F97070;
+
+    left: 450px;
+    top: 950px;
+    background: rgba(224, 226, 110, 0.49);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.survol {
+    position: absolute;
+    width: 420px;
+    height: 117px;
+    left: 1000px;
+    top: 830px;
+
+}
+
+.survol:hover {
+    transform: scale(1.5);
+
+}
+
+/* page catéorie */
+#b1 {
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 250px;
+    top: 850px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-style: italic;
+    font-size: 40px;
+    color: #1DA6F2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F97070;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+#b2 {
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 900px;
+    top: 850px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-style: italic;
+    font-size: 40px;
+    color: #1DA6F2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F97070;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+
+}
