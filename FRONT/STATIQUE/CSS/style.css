@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: initial;
+    list-style: none;
+}
+
+/*header {
+    position: absolute;
+    width: 1450px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    font-style: italic;
+    font-size: 40px;
+    color: #9b044adc;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #bd7816;
+    border-radius: 25px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    line-height: 100%;
+}*/
+header{
+   
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    font-style: italic;
+    color: #8b0823dc;
+    font-size: 35px;
+    background: #bd7816;
+    border-radius: 25px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    line-height:100%;
+}
+
+
+
+#btn {
+    font-style: italic;
+    color: #8b0823dc;
+    font-size:30px;
+    background: #bd7816;
+    border-radius: 25px; 
+    border-style: groove;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+li {
+    margin-left: 50px;
+}
+
+ul {
+    display: inline-flex;
+    padding-left: 460px;
+}
+form{
+    
+     border-radius: 25px;
+    font-style: italic;
+    font-size: 20px;
+    color: #1DA6F2;
+  
+    font: weight 100%;;
+    line-height: 20px;
+
+}
+
+#titre {
+    width:100%;
+    height:500px;
+    left:0px;
+    top:60px;
+    }
+    #titre2 {
+        width:100%;
+        height:100%;
+        }
+        .bg-success {
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+          }       
+#cat1 {
+    width: 350px;
+    height: 200px;
+    left: 50px;
+    top: 389px;
+    border-radius: 30px;
+}
+
+#cat2 {
+    width: 350px;
+    height: 200px;
+    left: 500px;
+    top: 389px;
+    border-radius: 30px;
+}
+
+#cat3 {
+    width: 350px;
+    height: 200px;
+    left: 1000px;
+    top: 389px;
+    border-radius: 30px;
+}
+
+#cat4 {
+    width: 350px;
+    height: 200px;
+    left: 100px;
+    top: 610px;
+    border-radius: 30px;
+}
+
+#cat5 {
+    width: 350px;
+    height: 200px;
+    left: 500px;
+    top: 610px;
+    border-radius: 30px;
+}
+
+#cat6 {
+    width: 350px;
+    height: 200px;
+    left: 1000px;
+    top: 610px;
+    border-radius: 30px;
+}
+#cat7 {
+    width: 350px;
+    height: 200px;
+    left: 1000px;
+    top: 610px;
+    border-radius: 30px;
+}
+#cat8 {
+    width: 350px;
+    height: 200px;
+    left: 1000px;
+    top: 610px;
+    border-radius: 30px;
+}
+
+#cat11 {
+    font-style: italic;
+    color: #8b0823dc;
+    font-size:15px;
+    width: 400px;
+    height: 250px;
+    left: 800px;
+    top: 500px;
+    border-radius: 30px;
+}
+
+
+
+#plat1 {
+    width: 350px;
+    height: 115px;
+    border-radius: 25px;
+}
+
+#plat2 {
+    width: 350px;
+    height: 115px;
+    border-radius: 25px;
+}
+
+#plat3 {
+    width: 350px;
+    height: 115px;
+    border-radius: 25px;
+}
+
+#footer {
+      background: #8b5101;
+    width:100%;
+    height:120px;
+    border-radius: 25px;}/*
+    left: 0px;
+    top: 950px;
+    border-top: 10px #bd7816 solid;
+    border-bottom: 10px #bd7816 solid;
+    border-left:500px #bd7816 solid;
+    border-right:500px #bd7816 solid;
+  
+    color: #9b044adc;
+    width: 100%;
+    line-height: 800px;
+}*/
+
+#logos {
+    width: 800px;
+    height:90px ;
+    border-radius: 25px; 
+}
+
+
+.survol:hover {
+    transform: scale(1.2);
+}
+/* page catéorie */
+#b1{
+
+    width: 250px;
+    height: 75px;
+    left: 100px;
+    top: 850px;
+    background:#5e0202 ;
+    border-radius: 25px;
+    font-style: italic;
+    font-size: 40px;
+    color: #1DA6F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 900;
+    line-height: 100%;
+}
+
+#b2 {
+    width: 250px;
+    height: 75px;
+    left: 1150px;
+    top: 850px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-style: italic;
+    font-size: 40px;
+    color: #1DA6F2;
+    background: #5e0202;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.parallax{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wallpaperaccess.com/download/restaurant-385454)center fixed no-repeat;
+    background-size: cover;
+    height: auto;
+   }
